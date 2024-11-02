@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+            <h2>Universitas Pamulang</h2>
+        </div>
+        <div class="user-info">
+            <p>Welcome, Jesika</p>
+            <span>Administrator</span>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Dashboard</a></li>
+                <li><a href="karyawan.html">Karyawan</a></li>
+                <li class="active"><a href="#">Jabatan</a></li>
+                <li><a href="divisi.html">Divisi</a></li>
+            </ul>
+            <ul>
+                <li><a href="absensi.html">Absensi</a></li>
+                <li><a href="izin.html">Izin</a></li>
+                <li><a href="lembur.html">Lembur</a></li>
+                <li><a href="#">Slip Gaji</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main-content">
+        <header>
+            <h1>Data Jabatan</h1>
+            <button class="add-button">+ Tambah Jabatan</button>
+        </header>
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Kode Jabatan</th>
+                    <th>Jabatan</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>JAB001</td>
+                    <td>Kepala Bagian</td>
+                    <td>
+                        <a href="#" class="action-btn edit-btn">✏️</a>
+                        <a href="#" class="action-btn delete-btn">❌</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>JAB002</td>
+                    <td>Kepala Sub Bagian</td>
+                    <td>
+                        <a href="#" class="action-btn edit-btn">✏️</a>
+                        <a href="#" class="action-btn delete-btn">❌</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>JAB003</td>
+                    <td>Staff</td>
+                    <td>
+                        <a href="#" class="action-btn edit-btn">✏️</a>
+                        <a href="#" class="action-btn delete-btn">❌</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>JAB004</td>
+                    <td>Warek I</td>
+                    <td>
+                        <a href="#" class="action-btn edit-btn">✏️</a>
+                        <a href="#" class="action-btn delete-btn">❌</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="pagination">
+            <button class="page-btn">Previous</button>
+            <span class="page-number">1</span>
+            <button class="page-btn">Next</button>
+        </div>
+    </div>
+</body>
+
+</html>
